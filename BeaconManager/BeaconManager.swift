@@ -5,7 +5,7 @@ let proximityUUID = NSUUID(UUIDString: "B9407F30-F5F8-466E-AFF9-25556B57FE6D")
 
 class BeaconManager : NSObject, CLLocationManagerDelegate {
     let manager = CLLocationManager()
-    let region : CLBeaconRegion = CLBeaconRegion(proximityUUID: proximityUUID, identifier: "Estimote Region")
+    let region = CLBeaconRegion(proximityUUID: proximityUUID, identifier: "Estimote Region")
 
     init () {
         super.init()
