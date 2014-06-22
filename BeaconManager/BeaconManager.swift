@@ -1,15 +1,13 @@
 import Foundation
 import CoreLocation
 
+let proximityUUID = NSUUID(UUIDString: "B9407F30-F5F8-466E-AFF9-25556B57FE6D")
+
 class BeaconManager : NSObject, CLLocationManagerDelegate {
-    let manager : CLLocationManager
-    let proximityUUID: NSUUID
-    let region: CLBeaconRegion
+    let manager = CLLocationManager()
+    let region : CLBeaconRegion = CLBeaconRegion(proximityUUID: proximityUUID, identifier: "Estimote Region")
 
     init () {
-        proximityUUID = NSUUID(UUIDString: "B9407F30-F5F8-466E-AFF9-25556B57FE6D")
-        region = CLBeaconRegion(proximityUUID: proximityUUID, identifier: "Estimote Region")
-        manager = CLLocationManager()
         super.init()
         manager.delegate = self
     }
