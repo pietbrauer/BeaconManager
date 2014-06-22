@@ -11,7 +11,6 @@
 		F05AEC1519573073004BD3C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F05AEC1419573073004BD3C0 /* Images.xcassets */; };
 		F05AEC2119573073004BD3C0 /* BeaconManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05AEC2019573073004BD3C0 /* BeaconManagerTests.swift */; };
 		F05AEC2B19573094004BD3C0 /* BeaconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05AEC2A19573094004BD3C0 /* BeaconManager.swift */; };
-		F0AA49AA19573C6D00430D19 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0AA49A919573C6D00430D19 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +32,6 @@
 		F05AEC1F19573073004BD3C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F05AEC2019573073004BD3C0 /* BeaconManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconManagerTests.swift; sourceTree = "<group>"; };
 		F05AEC2A19573094004BD3C0 /* BeaconManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconManager.swift; sourceTree = "<group>"; };
-		F0AA49A919573C6D00430D19 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +39,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0AA49AA19573C6D00430D19 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +55,6 @@
 		F05AEC0419573073004BD3C0 = {
 			isa = PBXGroup;
 			children = (
-				F0AA49A919573C6D00430D19 /* CoreLocation.framework */,
 				F05AEC0F19573073004BD3C0 /* BeaconManager */,
 				F05AEC1D19573073004BD3C0 /* BeaconManagerTests */,
 				F05AEC0E19573073004BD3C0 /* Products */,
